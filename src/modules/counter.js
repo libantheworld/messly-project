@@ -39,7 +39,7 @@ export const updateShiftsAsync = () => {
             dispatch({
                 type: UPDATE_SUMMARY_COUNTS
             })
-        }, 3000)
+        }, 1000)
     }
 }
 

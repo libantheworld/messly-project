@@ -16,7 +16,7 @@ export const BarChartComponent = (props) => ({
 	render() {
         return(
         <div style={{height: '500px', width: '500px', position: 'relative'}}>
-            <Bar data={this.props.data} height={250} width={500} options={chartOptions} redraw/>
+            <Bar data={this.props.data} height={250} width={500} options={chartOptions} />
         </div>
         );
 	}
